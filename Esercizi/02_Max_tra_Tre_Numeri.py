@@ -1,6 +1,13 @@
 """Scrivi una funzione che prende stavolta tre numeri come parametro e restituisce il più grande tra loro!"""
 
-def max_tra_tre_Numeri(a,b,c):
+
+def max_tra_tre_Numeri(input):
+    for numeri in range(1):
+        a = int(input("Scrivi il primo numero: "))
+        b = int(input("Scrivi il secondo numero: "))
+        c = int(input("Scrivi il terzo numero: "))
+        print("Il primo numero è:", a, "\nIl secondo numero è:", b, "\nIl terzo numero è:", c)
+
     if a == b == c:
         print("I numeri sono identici.")
     elif a >= b and a >= c:
@@ -13,4 +20,5 @@ def max_tra_tre_Numeri(a,b,c):
         print("Il numero più grande è c:", c)
         return c
 
-max_tra_tre_Numeri(2,2,2)
+
+max_tra_tre_Numeri(input)
