@@ -2,11 +2,11 @@
 
 
 def max_tra_tre_Numeri(input):
-    for numeri in range(1):
-        a = int(input("Scrivi il primo numero: "))
-        b = int(input("Scrivi il secondo numero: "))
-        c = int(input("Scrivi il terzo numero: "))
-        print("Il primo numero è:", a, "\nIl secondo numero è:", b, "\nIl terzo numero è:", c)
+    # for numeri in range(1):
+    a = int(input("Scrivi il primo numero: "))
+    b = int(input("Scrivi il secondo numero: "))
+    c = int(input("Scrivi il terzo numero: "))
+    print("Il primo numero è:", a, "\nIl secondo numero è:", b, "\nIl terzo numero è:", c)
 
     if a == b == c:
         print("I numeri sono identici.")
@@ -19,6 +19,5 @@ def max_tra_tre_Numeri(input):
     else:
         print("Il numero più grande è c:", c)
         return c
-
 
 max_tra_tre_Numeri(input)
