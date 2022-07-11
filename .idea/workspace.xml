@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f6433f-0f38-48fc-9030-97cd19e91c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/14_Le_Liste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Esercizi/02_Max_tra_Tre_Numeri.py" beforeDir="false" afterPath="$PROJECT_DIR$/Esercizi/02_Max_tra_Tre_Numeri.py" afterDir="false" />
     </list>
