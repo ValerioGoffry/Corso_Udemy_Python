@@ -2,7 +2,6 @@
 
 
 def max_tra_tre_Numeri(input):
-    # for numeri in range(1):
     a = int(input("Scrivi il primo numero: "))
     b = int(input("Scrivi il secondo numero: "))
     c = int(input("Scrivi il terzo numero: "))
