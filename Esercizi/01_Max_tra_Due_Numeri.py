@@ -9,11 +9,11 @@ def max_tra_due_numeri(a, b):
     if a == b:
         print("I numeri sono identici")
     elif a > b:
-        print("a è più grande di b ")
+        print("Il numero a:", a, "è più grande del numero b:", b)
+        return a
     else:
-        print("b è più grande di a ")
+        print("Il numero b:", b, "è più grande del numero a:", a)
+        return b
 
 
-
-max_tra_due_numeri(20,2)
-
+max_tra_due_numeri(20, 2)
