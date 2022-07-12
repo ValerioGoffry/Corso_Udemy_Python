@@ -1,10 +1,10 @@
-def cerca_vocali(input):
-    a = str(input("Funzione Cerca-Vocali: Inserisci il carattere da analizzare --> "))
+def cerca_vocali(messaggio):
     lista_vocali = ["a", "e", "i", "o", "u"]
-    if a in lista_vocali:
-        print(f"Il carattere {a} è una vocale")
+    if messaggio in lista_vocali:
+        messaggio = f"Il carattere '{messaggio}' è una vocale!"
     else:
-        print(f"Il carattere {a} non è una vocale")
+        messaggio = f"Il carattere '{messaggio}' non è una vocale!"
+    return messaggio
 
-
-cerca_vocali(input)
+messaggio = str(input("Funzione Cerca-Vocali: Inserisci il carattere da analizzare --> "))
+print(cerca_vocali(messaggio))
